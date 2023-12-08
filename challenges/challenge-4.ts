@@ -19,7 +19,7 @@ function decode(message: string) {
       return;
     }
 
-    // if there is an opening parenthesis
+    // if there is an closing parenthesis
     if (character === ")") {
       if (nestingLevel === 1) {
         // reverse the order and extract a string with the characters in the correct order.
